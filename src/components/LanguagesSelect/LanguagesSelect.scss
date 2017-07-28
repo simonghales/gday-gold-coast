@@ -1,0 +1,16 @@
+.LanguagesSelect
+{
+
+}
+
+.LanguagesSelect__language
+{
+  padding:          30px;
+  background-color: #ffffff;
+
+  &:nth-of-type(odd)
+  {
+    background-color: #f0f0f0;
+  }
+
+}

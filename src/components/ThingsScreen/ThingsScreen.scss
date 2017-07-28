@@ -1,0 +1,52 @@
+.ThingsScreen
+{
+
+}
+
+.ThingsScreen__mapWrapper
+{
+  height:           30vh;
+  background-color: #B0B0B0;
+}
+
+.ThingsScreen__eventsWrapper
+{
+
+}
+
+.ThingsScreen__eventsTabs
+{
+  display: flex;
+}
+
+.ThingsScreen__eventsTabs__tab
+{
+  flex:       1;
+  text-align: center;
+  padding:    15px 10px;
+  position:   relative;
+
+  &::after
+  {
+    content:          '';
+    position:         absolute;
+    left:             10px;
+    right:            10px;
+    bottom:           0;
+    //height:           6px;
+    height:           0;
+    background-color: #D0D0D0;
+    transition:       height 300ms ease;
+  }
+
+  &.ThingsScreen__eventsTabs__tab--selected
+  {
+
+    &::after
+    {
+      height: 6px;
+    }
+
+  }
+
+}

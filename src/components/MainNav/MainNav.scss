@@ -1,0 +1,28 @@
+.MainNav
+{
+  position:         fixed;
+  left:             0;
+  bottom:           0;
+  right:            0;
+  display:          flex;
+  background-color: #FFFFFF;
+  box-shadow:       0 -5px 20px rgba(0, 0, 0, 0.05);
+  z-index:          500;
+}
+
+.MainNav__tab
+{
+  flex:            1;
+  height:          100px;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  border-right:    1px solid #f3f3f3;
+  cursor:          pointer;
+
+  &:last-of-type
+  {
+    border-right: 0;
+  }
+
+}

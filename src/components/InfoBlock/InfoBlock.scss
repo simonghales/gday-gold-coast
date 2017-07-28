@@ -1,0 +1,26 @@
+.InfoBlock
+{
+  margin:           20px 10px;
+  background-color: #FFFFFF;
+  padding:          10px;
+  border-radius:    3px;
+  box-shadow:       0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.InfoBlock__title
+{
+  font-size:   18px;
+  line-height: 20px;
+  margin-top:  5px;
+}
+
+.InfoBlock__description
+{
+  line-height: 20px;
+  margin:      5px 0 10px 0;
+}
+
+.InfoBlock__action
+{
+
+}
