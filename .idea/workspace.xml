@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3457d83d-f179-426e-9842-695e7e655742" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/freeEvents.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" afterPath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" afterPath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" afterPath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/gamesEvents.js" afterPath="$PROJECT_DIR$/src/data/gamesEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/tools/_tools.buttons.scss" afterPath="$PROJECT_DIR$/src/styles/tools/_tools.buttons.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,16 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LandingScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,14 +32,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThingsScreen.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThingsScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="120" column="6" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+            <state relative-caret-position="407">
+              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="freeEvents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/freeEvents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreeEventBlock.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreeEventBlock.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,26 +234,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="12" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenWrapper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ScreenWrapper/ScreenWrapper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -251,7 +249,11 @@
       <find>stadium</find>
       <find>radius</find>
       <find>Belmont</find>
+      <find>EventBlock</find>
     </findStrings>
+    <replaceStrings>
+      <replace>FreeEventBlock</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -357,7 +359,10 @@
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" />
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" />
         <option value="$PROJECT_DIR$/src/styles/tools/_tools.buttons.scss" />
+        <option value="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss" />
         <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
+        <option value="$PROJECT_DIR$/src/data/freeEvents.js" />
+        <option value="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js" />
       </list>
     </option>
   </component>
@@ -417,6 +422,19 @@
               <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
               <item name="gday-queensland" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gday-queensland" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gday-queensland" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="FreeEventBlock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +505,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501249424595</updated>
-      <workItem from="1501249425882" duration="13626000" />
+      <workItem from="1501249425882" duration="15096000" />
     </task>
     <task id="LOCAL-00001" summary="setup transitions">
       <created>1501287486682</created>
@@ -517,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501299034518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added in events">
+      <created>1501306962248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501306962248</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13626000" />
+    <option name="totallyTimeSpent" value="15096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -558,7 +583,8 @@
     <MESSAGE value="added map" />
     <MESSAGE value="added google maps key" />
     <MESSAGE value="added api key" />
-    <option name="LAST_COMMIT_MESSAGE" value="added api key" />
+    <MESSAGE value="added in events" />
+    <option name="LAST_COMMIT_MESSAGE" value="added in events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -853,10 +879,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="120" column="6" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+        <state relative-caret-position="407">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/freeEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -5,6 +5,8 @@ import EventBlock from '../EventBlock/EventBlock';
 import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
 import EventsMap from '../EventsMap/EventsMap';
 import {ALL_GAME_EVENTS} from '../../data/gamesEvents';
+import FreeEventBlock from '../FreeEventBlock/FreeEventBlock';
+import {FREE_EVENTS} from '../../data/freeEvents';
 
 class ThingsScreen extends Component {
 
@@ -18,7 +20,7 @@ class ThingsScreen extends Component {
 
     this.state = {
       fullScreenMap: false,
-      tab: 'games'
+      tab: 'free'
     };
 
     this.changeTab = this.changeTab.bind(this);
@@ -61,6 +63,21 @@ class ThingsScreen extends Component {
         </div>
       )
     })
+  }
+
+  renderFreeEvents() {
+    return (
+      <div className='ThingsScreen__eventsList__group'>
+        <h4 className='ThingsScreen__eventsList__group__title'>Saturday 7th of April</h4>
+        <div className='ThingsScreen__eventsList__group__events'>
+          {
+            FREE_EVENTS.items.map((event, index) => (
+              <FreeEventBlock event={event} key={index}/>
+            ))
+          }
+        </div>
+      </div>
+    )
   }
 
   render() {
@@ -112,7 +129,14 @@ class ThingsScreen extends Component {
             </div>
             <div className='ThingsScreen__eventsList'>
               {
-                this.renderGameEvents()
+                (tab === 'games') ? (
+                  this.renderGameEvents()
+                ) : null
+              }
+              {
+                (tab === 'free') ? (
+                  this.renderFreeEvents()
+                ) : null
               }
             </div>
           </div>
