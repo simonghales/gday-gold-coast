@@ -12,6 +12,10 @@ import {getVenueMarkers} from '../../data/venues';
 
 class ThingsScreen extends Component {
 
+  props: {
+    setCurrentPage(page: string): void
+  };
+
   state: {
     fullScreenMap: boolean,
     tab: string
@@ -19,7 +23,6 @@ class ThingsScreen extends Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
       fullScreenMap: false,
       userLocation: null,
@@ -35,6 +38,10 @@ class ThingsScreen extends Component {
 
   }
 
+  componentDidMount() {
+    // this.props.setCurrentPage('things');
+  }
+
   setUserLocation(location: any) {
     this.setState({
       userLocation: location
@@ -43,7 +50,7 @@ class ThingsScreen extends Component {
 
   setDirections(lat: number, long: number) {
     if (!this.state.userLocation) return;
-    console.log('getting directions', this.state.userLocation);
+    console.log('getting directions', this.state.userLocation, lat, long);
     const DirectionsService = new google.maps.DirectionsService();
 
     setTimeout(() => {
@@ -166,16 +173,16 @@ class ThingsScreen extends Component {
                      this.changeTab('free')
                    }}>Free
               </div>
-              <div className={classNames([
-                'ThingsScreen__eventsTabs__tab',
-                {
-                  'ThingsScreen__eventsTabs__tab--selected': tab === 'food'
-                }
-              ])}
-                   onClick={() => {
-                     this.changeTab('food')
-                   }}>Food
-              </div>
+              {/*<div className={classNames([*/}
+              {/*'ThingsScreen__eventsTabs__tab',*/}
+              {/*{*/}
+              {/*'ThingsScreen__eventsTabs__tab--selected': tab === 'food'*/}
+              {/*}*/}
+              {/*])}*/}
+              {/*onClick={() => {*/}
+              {/*this.changeTab('food')*/}
+              {/*}}>Food*/}
+              {/*</div>*/}
             </div>
             <div className='ThingsScreen__eventsList'>
               {

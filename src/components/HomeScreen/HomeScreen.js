@@ -7,6 +7,7 @@ import IntroBlock from '../IntroBlock/IntroBlock';
 import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
 
 class HomeScreen extends Component {
+
   render() {
     return (
       <ScreenWrapper>

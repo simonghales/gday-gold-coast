@@ -33,7 +33,7 @@ class EventBlock extends Component {
             <div className='EventBlock__header__options'>
               <button className='EventBlock__directions' onClick={() => {
                 if (!event.X || !event.Y) return;
-                this.props.setDirections(event.X, event.Y);
+                this.props.setDirections(event.Y, event.X);
               }}>Get directions
               </button>
             </div>

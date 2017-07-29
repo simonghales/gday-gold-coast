@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {
   Route,
-  Switch
+  Switch,
+  withRouter
 } from 'react-router-dom';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './App.css';
@@ -12,7 +13,27 @@ import HomeScreen from '../HomeScreen/HomeScreen';
 import ThingsScreen from '../ThingsScreen/ThingsScreen';
 
 class App extends Component {
+
+  state: {
+    page: string
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      page: 'landing'
+    };
+    this.setCurrentPage = this.setCurrentPage.bind(this);
+  }
+
+  setCurrentPage(page: string) {
+    this.setState({
+      page
+    });
+  }
+
   render() {
+    console.log('app props', this.props);
     return (
       <div className='App'>
         {/*<LandingScreen/>*/}
@@ -27,7 +48,7 @@ class App extends Component {
                       location={location}>
                 <Route key='/' exact path='/' component={LandingScreen}/>
                 <Route key='/home' exact path='/home' component={HomeScreen}/>
-                <Route key='/things' exact path='/things' component={ThingsScreen}/>
+                <Route key='/events' exact path='/events' component={ThingsScreen}/>
                 <Route key='/language' exact path='/language' component={LanguageScreen}/>
               </Switch>
             </ReactCSSTransitionGroup>
@@ -36,10 +57,10 @@ class App extends Component {
           {/*<ThingsScreen/>*/}
           {/*<LanguageScreen/>*/}
         </div>
-        <MainNav/>
+        <MainNav page={this.props.location.pathname}/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
