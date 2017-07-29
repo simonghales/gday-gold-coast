@@ -27,7 +27,7 @@ class ThingsScreen extends Component {
       fullScreenMap: false,
       userLocation: null,
       directions: null,
-      tab: 'free'
+      tab: 'games'
     };
 
     this.changeTab = this.changeTab.bind(this);

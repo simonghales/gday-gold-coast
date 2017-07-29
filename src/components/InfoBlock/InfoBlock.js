@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {
+  Link
+} from 'react-router-dom';
 import './InfoBlock.css';
 
 class InfoBlock extends Component {
@@ -6,7 +9,8 @@ class InfoBlock extends Component {
   props: {
     title: string,
     description: string,
-    linkLabel: string
+    linkLabel: string,
+    linkTo: string
   };
 
   render() {
@@ -20,11 +24,13 @@ class InfoBlock extends Component {
 
     return (
       <div className='InfoBlock'>
-        <div className='InfoBlock__content'>
-          <h4 className='InfoBlock__title'>{title}</h4>
-          <p className='InfoBlock__description'>{description}</p>
-          <a href='' className='InfoBlock__action'>{linkLabel}</a>
-        </div>
+        <Link to={this.props.linkTo}>
+          <div className='InfoBlock__content'>
+            <h4 className='InfoBlock__title'>{title}</h4>
+            <p className='InfoBlock__description'>{description}</p>
+            <div className='InfoBlock__action'>{linkLabel}</div>
+          </div>
+        </Link>
       </div>
     );
   }

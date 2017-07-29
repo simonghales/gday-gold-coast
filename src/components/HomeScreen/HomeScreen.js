@@ -14,10 +14,9 @@ class HomeScreen extends Component {
         <div className='HomeScreen'>
           <IntroBlock/>
           <div>
-            <InfoBlock/>
-            <InfoBlock title='Free things to do'/>
-            <InfoBlock title='Places to eat'/>
-            <InfoBlock title='Learn some Aussie phrases'/>
+            <InfoBlock linkTo='/events'/>
+            <InfoBlock title='Free things to do' linkTo='/events'/>
+            <InfoBlock title='Learn some Aussie phrases' linkTo='/language'/>
           </div>
         </div>
       </ScreenWrapper>

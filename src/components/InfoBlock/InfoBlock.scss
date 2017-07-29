@@ -2,9 +2,15 @@
 {
   margin:           20px 10px;
   background-color: #FFFFFF;
-  padding:          10px;
   border-radius:    3px;
   box-shadow:       0 1px 5px rgba(0, 0, 0, 0.05);
+
+  > a
+  {
+    display: block;
+    padding: 10px;
+  }
+
 }
 
 .InfoBlock__title

@@ -5,12 +5,35 @@
 
 .LanguagesSelect__language
 {
-  padding:          30px;
   background-color: #ffffff;
+  font-weight:      500;
+
+  a
+  {
+    display: block;
+    padding: 30px;
+
+    &:focus
+    {
+      background-color: #acc4ec;
+    }
+
+  }
 
   &:nth-of-type(odd)
   {
     background-color: #f0f0f0;
+  }
+
+  h3
+  {
+    font-weight: 700;
+
+    &::after
+    {
+      content: ' Queensland';
+    }
+
   }
 
 }

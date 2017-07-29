@@ -1,5 +1,32 @@
 .GdayIntro
 {
-  background-color: #808080;
-  height:           35vh;
+  background-color:    #808080;
+  background-image:    url('https://upload.wikimedia.org/wikipedia/commons/9/9c/Gold_Coast%2CQLD.jpg');
+  background-size:     cover;
+  background-position: center;
+  height:              35vh;
+  display:             flex;
+  align-items:         center;
+  justify-content:     center;
+  color:               #FFFFFF;
+  font-size:           28px;
+  font-weight:         500;
+  position:            relative;
+
+  &::before
+  {
+    content:          '';
+    position:         absolute;
+    top:              0;
+    left:             0;
+    right:            0;
+    bottom:           0;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  h2
+  {
+    position: relative;
+  }
+
 }

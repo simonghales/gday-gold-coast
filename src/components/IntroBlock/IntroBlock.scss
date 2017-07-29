@@ -9,4 +9,13 @@
   background-size:     cover;
   background-position: center;
   background-repeat:   no-repeat;
+  position:            relative;
+}
+
+.IntroBlock__return
+{
+  position: absolute;
+  top:      10px;
+  left:     10px;
+  color:    #FFFFFF;
 }
