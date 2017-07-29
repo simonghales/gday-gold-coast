@@ -8,6 +8,7 @@ import classNames from 'classnames';
 import './EventsMap.css';
 import {getVenueMarkers} from '../../data/venues';
 import {_googleMarker, getFreeEventMarkers} from '../../data/freeEvents';
+import MarkerInfoWindow from '../MarkerInfoWindow/MarkerInfoWindow';
 
 const geolocation = (
   canUseDOM && navigator.geolocation ?
@@ -48,9 +49,13 @@ const DirectionsExampleGoogleMap = withGoogleMap(props => (
               <InfoWindow onCloseClick={() => {
                 props.markerOnClose(marker)
               }}>
-                <div>
-                  SOME INFO GOES HERE...
-                </div>
+                {
+                  (marker.type === 'venue') ? (
+                    <MarkerInfoWindow venueData={marker.venueData}/>
+                  ) : (
+                    <MarkerInfoWindow eventData={marker.eventData}/>
+                  )
+                }
               </InfoWindow>
             ) : null
           }

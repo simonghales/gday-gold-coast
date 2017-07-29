@@ -9,12 +9,14 @@ export function getVenueMarkers(): _googleMarker[] {
       },
       key: venueData.GlobalID,
       defaultAnimation: 4,
-      showInfo: false
+      showInfo: false,
+      venueData: venueData,
+      type: 'venue'
     };
   });
 }
 
-interface VenueData {
+export interface VenueData {
   X: number,
   Y: number,
   OBJECTID: number,

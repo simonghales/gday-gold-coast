@@ -1,3 +1,5 @@
+import {VenueData} from './venues';
+
 export interface _googleMarker {
   position: {
     lat: number,
@@ -5,7 +7,10 @@ export interface _googleMarker {
   },
   key: string | number,
   defaultAnimation?: number,
-  showInfo: boolean
+  showInfo: boolean,
+  venueData?: VenueData,
+  eventData?: _freeEvent,
+  type: string
 }
 
 export function getFreeEventMarkers(): _googleMarker[] {
@@ -17,7 +22,9 @@ export function getFreeEventMarkers(): _googleMarker[] {
       },
       key: index,
       defaultAnimation: 4,
-      showInfo: false
+      showInfo: false,
+      type: 'free',
+      eventData
     }
   });
 }

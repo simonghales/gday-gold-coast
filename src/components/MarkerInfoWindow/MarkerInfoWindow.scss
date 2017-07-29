@@ -1,0 +1,39 @@
+.MarkerInfoWindow
+{
+
+}
+
+.MarkerInfoWindow__venue
+{
+
+}
+
+.MarkerInfoWindow__venue__title
+{
+  font-weight: 500;
+}
+
+.MarkerInfoWindow__venue__subtitle
+{
+  margin-top: 2px;
+}
+
+.MarkerInfoWindow__venue__sports
+{
+  margin-top: 5px;
+}
+
+.MarkerInfoWindow__venue__sport
+{
+  margin-top:  5px;
+  padding-top: 5px;
+  border-top:  1px solid #F0F0F0;
+
+  &:first-of-type
+  {
+    margin-top: 0;
+    padding:    0;
+    border:     0;
+  }
+
+}
