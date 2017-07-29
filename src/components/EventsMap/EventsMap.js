@@ -1,17 +1,34 @@
 /* global google */
 import React, {Component} from 'react';
-import {withGoogleMap, GoogleMap, Marker} from "react-google-maps";
+import {withGoogleMap, GoogleMap, Marker, InfoWindow} from "react-google-maps";
 import {MAP} from 'react-google-maps/lib/constants';
 import ReactResizeDetector from 'react-resize-detector';
+import canUseDOM from "can-use-dom";
 import classNames from 'classnames';
 import './EventsMap.css';
 import {getVenueMarkers} from '../../data/venues';
 
+const geolocation = (
+  canUseDOM && navigator.geolocation ?
+    navigator.geolocation :
+    ({
+      getCurrentPosition(success, failure) {
+        failure(`Your browser doesn't support geolocation.`);
+      },
+    })
+);
+
 const DirectionsExampleGoogleMap = withGoogleMap(props => (
   <GoogleMap
-    defaultZoom={7}
+    defaultZoom={10}
     defaultCenter={props.center}
   >
+    {props.user && (
+      <Marker position={props.user}/>
+      // <InfoWindow position={props.user}>
+      //   <div>{props.content}</div>
+      // </InfoWindow>
+    )}
     {/*<ReactResizeDetector handleWidth handleHeight onResize={props.onResize}/>*/}
     {
       props.markers.map((marker) => (
@@ -40,18 +57,49 @@ class EventsMap extends Component {
 
   map;
 
+  isUnmounted = false;
+
   constructor(props) {
     super(props);
     this.state = {
       origin: new google.maps.LatLng(-28.009281, 153.362754),
       overlayDismissed: false,
       mapRenderKey: 0,
+      user: null,
+      content: null,
       // destination: new google.maps.LatLng(41.8525800, -87.6514100),
       // directions: null,
     }
     this.exitFullscreen = this.exitFullscreen.bind(this);
     this.overlayClicked = this.overlayClicked.bind(this);
     this.onResize = this.onResize.bind(this);
+  }
+
+  componentDidMount() {
+    geolocation.getCurrentPosition((position) => {
+      if (this.isUnmounted) {
+        return;
+      }
+      this.setState({
+        user: {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        },
+        content: `Location found using HTML5.`,
+      });
+
+    }, (reason) => {
+      if (this.isUnmounted) {
+        return;
+      }
+      this.setState({
+        content: `Error: The Geolocation service failed (${reason}).`,
+      });
+    });
+  }
+
+  componentWillUnmount() {
+    this.isUnmounted = true;
   }
 
   overlayClicked() {
@@ -119,6 +167,8 @@ class EventsMap extends Component {
             <div style={{height: `100%`}}/>
           }
           center={this.state.origin}
+          content={this.state.content}
+          user={this.state.user}
           onResize={this.onResize}
           markers={this.markers}
         />

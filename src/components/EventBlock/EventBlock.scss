@@ -1,8 +1,82 @@
+@import "styles/tools/tools.buttons";
+
 .EventBlock
 {
   margin:           20px 10px;
   background-color: #FFFFFF;
-  padding:          10px;
   border-radius:    3px;
   box-shadow:       0 1px 5px rgba(0, 0, 0, 0.05);
+  overflow:         hidden;
+}
+
+.EventBlock__header
+{
+  background-color: #D0D0D0;
+  border-radius:    3px 3px 0 0;
+  padding:          10px;
+  min-height:       80px;
+  position:         relative;
+  display:          flex;
+  align-content:    space-between;
+  flex-flow:        wrap;
+}
+
+.EventBlock__header__info
+{
+  display:         flex;
+  justify-content: space-between;
+  width:           100%;
+}
+
+.EventBlock__header__options
+{
+
+}
+
+.EventBlock__directions
+{
+  @include actionButton;
+}
+
+.EventBlock__title
+{
+  font-size:   18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.EventBlock__time
+{
+  right: 0;
+}
+
+.EventBlock__body
+{
+
+  padding: 10px;
+}
+
+.EventBlock__infoItem
+{
+  font-size:   13px;
+  line-height: 15px;
+  margin-top:  5px;
+  border-top:  1px solid #F0F0F0;
+  padding-top: 5px;
+
+  &:first-of-type
+  {
+    border-top:  0;
+    margin-top:  0;
+    padding-top: 0;
+  }
+
+  span
+  {
+    color:        #909090;
+    display:      inline-block;
+    min-width:    50px;
+    margin-right: 10px;
+  }
+
 }

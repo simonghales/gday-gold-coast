@@ -1,19 +1,44 @@
 import React, {Component} from 'react';
 import './EventBlock.css';
+import {_gameEvent} from '../../data/gamesEvents';
 
 class EventBlock extends Component {
 
+  props: {
+    event: _gameEvent
+  };
+
   render() {
+
+    const {event} = this.props;
 
     return (
       <div className='EventBlock'>
         <div className='EventBlock__content'>
-          <h3>Event title</h3>
-          <div>Time</div>
-          <div>City</div>
-          <div>Venue</div>
-          <div>Price</div>
-          <div>Description</div>
+          <header className='EventBlock__header'>
+            <div className='EventBlock__header__info'>
+              <h3 className='EventBlock__title'>{event.sportName}</h3>
+              <div className='EventBlock__time'>{event.sportTime}</div>
+            </div>
+            <div className='EventBlock__header__options'>
+              <button className='EventBlock__directions'>Get directions</button>
+            </div>
+          </header>
+          <div className='EventBlock__body'>
+            <div className='EventBlock__infoItem'>
+              <span>City</span>
+              {event.sportCity}
+            </div>
+            <div className='EventBlock__infoItem'>
+              <span>Venue</span>
+              {event.sportVenue}
+            </div>
+            <div className='EventBlock__infoItem'>
+              <span>Price</span>
+              {event.sportPrice}
+            </div>
+          </div>
+          {/*<div>Description</div>*/}
         </div>
       </div>
     );

@@ -4,6 +4,7 @@ import './ThingsScreen.css';
 import EventBlock from '../EventBlock/EventBlock';
 import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
 import EventsMap from '../EventsMap/EventsMap';
+import {ALL_GAME_EVENTS} from '../../data/gamesEvents';
 
 class ThingsScreen extends Component {
 
@@ -43,6 +44,23 @@ class ThingsScreen extends Component {
       fullScreenMap: true
     });
     // scroll to top of page? - prevent scrolling any further?
+  }
+
+  renderGameEvents() {
+    return ALL_GAME_EVENTS.map((group) => {
+      return (
+        <div className='ThingsScreen__eventsList__group' key={group.label}>
+          <h4 className='ThingsScreen__eventsList__group__title'>{group.label}</h4>
+          <div className='ThingsScreen__eventsList__group__events'>
+            {
+              group.events.map((event, index) => (
+                <EventBlock event={event} key={index}/>
+              ))
+            }
+          </div>
+        </div>
+      )
+    })
   }
 
   render() {
@@ -93,16 +111,9 @@ class ThingsScreen extends Component {
               </div>
             </div>
             <div className='ThingsScreen__eventsList'>
-              <div className='ThingsScreen__eventsList__group'>
-                <h4 className='ThingsScreen__eventsList__group__title'>Monday - 06/07</h4>
-                <div className='ThingsScreen__eventsList__group__events'>
-                  <EventBlock/>
-                  <EventBlock/>
-                  <EventBlock/>
-                  <EventBlock/>
-                  <EventBlock/>
-                </div>
-              </div>
+              {
+                this.renderGameEvents()
+              }
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "can-use-dom": "^0.1.0",
     "classnames": "^2.2.5",
     "flow-bin": "^0.51.1",
     "node-sass-chokidar": "^0.0.3",
