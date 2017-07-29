@@ -1,0 +1,32 @@
+.ScreenWrapper
+{
+  position:   absolute;
+  top:        0;
+  left:       0;
+  right:      0;
+  bottom:     0;
+  overflow-y: auto;
+
+  &.pageTransition-enter
+  {
+    transform: translateX(100%);
+  }
+
+  &.pageTransition-enter.pageTransition-enter-active
+  {
+    transform:  translateX(0);
+    transition: transform 750ms ease;
+  }
+
+  &.pageTransition-leave
+  {
+    transform: translateX(0);
+  }
+
+  &.pageTransition-leave.pageTransition-leave-active
+  {
+    transform:  translateX(-100%);
+    transition: transform 750ms ease;
+  }
+
+}

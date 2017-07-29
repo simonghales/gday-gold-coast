@@ -12,13 +12,18 @@
 
 .MainNav__tab
 {
-  flex:            1;
-  height:          100px;
-  display:         flex;
-  align-items:     center;
-  justify-content: center;
-  border-right:    1px solid #f3f3f3;
-  cursor:          pointer;
+  flex:         1;
+  height:       100px;
+  border-right: 1px solid #f3f3f3;
+  cursor:       pointer;
+
+  a
+  {
+    display:         flex;
+    align-items:     center;
+    justify-content: center;
+    height:          100%;
+  }
 
   &:last-of-type
   {

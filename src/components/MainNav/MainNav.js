@@ -26,7 +26,9 @@ class MainNav extends Component {
           </Link>
         </div>
         <div className='MainNav__tab'>
-          NAV
+          <Link to='/language'>
+            NAV
+          </Link>
         </div>
       </nav>
     );

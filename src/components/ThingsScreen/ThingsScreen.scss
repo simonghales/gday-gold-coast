@@ -16,7 +16,8 @@
 
 .ThingsScreen__eventsTabs
 {
-  display: flex;
+  background-color: #FFFFFF;
+  display:          flex;
 }
 
 .ThingsScreen__eventsTabs__tab
@@ -48,5 +49,25 @@
     }
 
   }
+
+}
+
+.ThingsScreen__eventsList
+{
+
+}
+
+.ThingsScreen__eventsList__group
+{
+  margin-top: 30px;
+}
+
+.ThingsScreen__eventsList__group__title
+{
+  margin: 0 20px;
+}
+
+.ThingsScreen__eventsList__group__events
+{
 
 }
