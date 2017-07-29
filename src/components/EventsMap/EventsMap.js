@@ -1,6 +1,6 @@
 /* global google */
 import React, {Component} from 'react';
-import {withGoogleMap, GoogleMap, Marker, InfoWindow} from "react-google-maps";
+import {withGoogleMap, GoogleMap, Marker, InfoWindow, DirectionsRenderer} from "react-google-maps";
 import {MAP} from 'react-google-maps/lib/constants';
 import ReactResizeDetector from 'react-resize-detector';
 import canUseDOM from "can-use-dom";
@@ -62,17 +62,22 @@ const DirectionsExampleGoogleMap = withGoogleMap(props => (
         </Marker>
       ))
     }
+    {
+      props.directions && <DirectionsRenderer directions={props.directions}/>
+    }
   </GoogleMap>
 ));
 
 class EventsMap extends Component {
 
   props: {
+    directions: any,
     tab: string,
     fullScreenMap: boolean,
     mapMarkers: _googleMarker[],
     exitMapFullscreen(): void,
     viewMapInFullscreen(): void,
+    setUserLocation(location: any): void,
   };
 
   state: {
@@ -130,6 +135,10 @@ class EventsMap extends Component {
           lng: position.coords.longitude,
         },
         content: `Location found using HTML5.`,
+      });
+      this.props.setUserLocation({
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
       });
 
     }, (reason) => {
@@ -248,6 +257,7 @@ class EventsMap extends Component {
           markers={this.state.markers}
           markerOnClick={this.handleShowMarker}
           markerOnClose={this.handleHideMarker}
+          directions={this.props.directions}
         />
         {/*{*/}
         {/*overlayDismissed ? null : (*/}

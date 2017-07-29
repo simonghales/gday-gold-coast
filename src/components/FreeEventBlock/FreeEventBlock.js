@@ -5,7 +5,8 @@ import {_freeEvent} from '../../data/freeEvents';
 class FreeEventBlock extends Component {
 
   props: {
-    event: _freeEvent
+    event: _freeEvent,
+    setDirections(lat: number, long: number): void
   };
 
   render() {
@@ -21,7 +22,10 @@ class FreeEventBlock extends Component {
               <div className='FreeEventBlock__time'>{event.time}</div>
             </div>
             <div className='FreeEventBlock__header__options'>
-              <button className='FreeEventBlock__directions'>Get directions</button>
+              <button className='FreeEventBlock__directions' onClick={() => {
+                this.props.setDirections(event.lat, event.long);
+              }}>Get directions
+              </button>
             </div>
           </header>
           <div className='FreeEventBlock__body'>

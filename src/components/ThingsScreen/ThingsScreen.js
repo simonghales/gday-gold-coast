@@ -1,3 +1,4 @@
+/* global google */
 import React, {Component} from 'react';
 import classNames from 'classnames';
 import './ThingsScreen.css';
@@ -21,12 +22,51 @@ class ThingsScreen extends Component {
 
     this.state = {
       fullScreenMap: false,
-      tab: 'games'
+      userLocation: null,
+      directions: null,
+      tab: 'free'
     };
 
     this.changeTab = this.changeTab.bind(this);
     this.exitMapFullscreen = this.exitMapFullscreen.bind(this);
     this.viewMapInFullscreen = this.viewMapInFullscreen.bind(this);
+    this.setUserLocation = this.setUserLocation.bind(this);
+    this.setDirections = this.setDirections.bind(this);
+
+  }
+
+  setUserLocation(location: any) {
+    this.setState({
+      userLocation: location
+    });
+  }
+
+  setDirections(lat: number, long: number) {
+    if (!this.state.userLocation) return;
+    console.log('getting directions', this.state.userLocation);
+    const DirectionsService = new google.maps.DirectionsService();
+
+    setTimeout(() => {
+      document.getElementsByClassName("ScreenWrapper")[0].scrollTop = 0;
+    }, 50);
+
+    DirectionsService.route({
+      origin: this.state.userLocation,
+      destination: {
+        lat: lat,
+        lng: long
+      },
+      travelMode: google.maps.TravelMode.DRIVING,
+    }, (result, status) => {
+      if (status === google.maps.DirectionsStatus.OK) {
+        this.setState({
+          directions: result,
+        });
+        console.log('got directions');
+      } else {
+        console.error(`error fetching directions ${result}`);
+      }
+    });
 
   }
 
@@ -64,7 +104,7 @@ class ThingsScreen extends Component {
           <div className='ThingsScreen__eventsList__group__events'>
             {
               group.events.map((event, index) => (
-                <EventBlock event={event} key={index}/>
+                <EventBlock setDirections={this.setDirections} event={event} key={index}/>
               ))
             }
           </div>
@@ -80,7 +120,7 @@ class ThingsScreen extends Component {
         <div className='ThingsScreen__eventsList__group__events'>
           {
             FREE_EVENTS.items.map((event, index) => (
-              <FreeEventBlock event={event} key={index}/>
+              <FreeEventBlock setDirections={this.setDirections} event={event} key={index}/>
             ))
           }
         </div>
@@ -99,9 +139,10 @@ class ThingsScreen extends Component {
           }
         ])}>
           <div className='ThingsScreen__mapWrapper'>
-            <EventsMap tab={tab} mapMarkers={this.getMapMarkers()} fullScreenMap={fullScreenMap}
+            <EventsMap tab={tab} directions={this.state.directions} mapMarkers={this.getMapMarkers()}
+                       fullScreenMap={fullScreenMap}
                        exitMapFullscreen={this.exitMapFullscreen}
-                       viewMapInFullscreen={this.viewMapInFullscreen}/>
+                       viewMapInFullscreen={this.viewMapInFullscreen} setUserLocation={this.setUserLocation}/>
           </div>
           <div className='ThingsScreen__eventsWrapper'>
             <div className='ThingsScreen__eventsTabs'>

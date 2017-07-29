@@ -41,6 +41,7 @@ export interface _freeEvent {
   thumbnail: string,
   location: string,
   time: string,
+  description: string,
 }
 
 export const FREE_EVENTS: _freeEvents = {

@@ -6,7 +6,8 @@ import {getIcon} from '../../icons/icons';
 class EventBlock extends Component {
 
   props: {
-    event: _gameEvent
+    event: _gameEvent,
+    setDirections(lat: number, long: number): void
   };
 
   render() {
@@ -30,7 +31,11 @@ class EventBlock extends Component {
               <div className='EventBlock__time'>{event.sportTime}</div>
             </div>
             <div className='EventBlock__header__options'>
-              <button className='EventBlock__directions'>Get directions</button>
+              <button className='EventBlock__directions' onClick={() => {
+                if (!event.X || !event.Y) return;
+                this.props.setDirections(event.X, event.Y);
+              }}>Get directions
+              </button>
             </div>
           </header>
           <div className='EventBlock__body'>

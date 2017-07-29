@@ -61,8 +61,10 @@ class MarkerInfoWindow extends Component {
   renderEvent() {
     const {eventData} = this.props;
     return (
-      <div>
-        EVENT
+      <div className='MarkerInfoWindow__event'>
+        <div className='MarkerInfoWindow__event__title' dangerouslySetInnerHTML={{__html: eventData.title}}></div>
+        <div className='MarkerInfoWindow__event__description'
+             dangerouslySetInnerHTML={{__html: eventData.description}}></div>
       </div>
     );
   }
