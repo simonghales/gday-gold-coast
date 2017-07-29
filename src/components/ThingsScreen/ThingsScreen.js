@@ -3,10 +3,12 @@ import classNames from 'classnames';
 import './ThingsScreen.css';
 import EventBlock from '../EventBlock/EventBlock';
 import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
+import EventsMap from '../EventsMap/EventsMap';
 
 class ThingsScreen extends Component {
 
   state: {
+    fullScreenMap: boolean,
     tab: string
   };
 
@@ -14,10 +16,13 @@ class ThingsScreen extends Component {
     super(props);
 
     this.state = {
+      fullScreenMap: false,
       tab: 'games'
     };
 
     this.changeTab = this.changeTab.bind(this);
+    this.exitMapFullscreen = this.exitMapFullscreen.bind(this);
+    this.viewMapInFullscreen = this.viewMapInFullscreen.bind(this);
 
   }
 
@@ -27,13 +32,32 @@ class ThingsScreen extends Component {
     });
   }
 
+  exitMapFullscreen() {
+    this.setState({
+      fullScreenMap: false
+    });
+  }
+
+  viewMapInFullscreen() {
+    this.setState({
+      fullScreenMap: true
+    });
+    // scroll to top of page? - prevent scrolling any further?
+  }
+
   render() {
-    const {tab} = this.state;
+    const {fullScreenMap, tab} = this.state;
     return (
       <ScreenWrapper>
-        <div className='ThingsScreen'>
+        <div className={classNames([
+          'ThingsScreen',
+          {
+            'ThingsScreen--fullScreenMap': fullScreenMap
+          }
+        ])}>
           <div className='ThingsScreen__mapWrapper'>
-            MAP GOES HERE
+            <EventsMap fullScreenMap={fullScreenMap} exitMapFullscreen={this.exitMapFullscreen}
+                       viewMapInFullscreen={this.viewMapInFullscreen}/>
           </div>
           <div className='ThingsScreen__eventsWrapper'>
             <div className='ThingsScreen__eventsTabs'>
