@@ -21,16 +21,25 @@
   flex-flow:        wrap;
 }
 
+.EventBlock__header__icon
+{
+  position: absolute;
+  top:      9px;
+  right:    10px;
+  fill:     #a9bcd8;
+}
+
 .EventBlock__header__info
 {
   display:         flex;
   justify-content: space-between;
   width:           100%;
+  position:        relative;
 }
 
 .EventBlock__header__options
 {
-
+  position: relative;
 }
 
 .EventBlock__directions

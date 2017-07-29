@@ -1,4 +1,6 @@
-export function getVenueMarkers() {
+import {_googleMarker} from './freeEvents';
+
+export function getVenueMarkers(): _googleMarker[] {
   return VENUES.map((venueData) => {
     return {
       position: {
@@ -6,8 +8,9 @@ export function getVenueMarkers() {
         lng: venueData.X
       },
       key: venueData.GlobalID,
-      defaultAnimation: 2
-    }
+      defaultAnimation: 4,
+      showInfo: false
+    };
   });
 }
 

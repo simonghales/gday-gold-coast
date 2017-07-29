@@ -6,7 +6,8 @@ import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
 import EventsMap from '../EventsMap/EventsMap';
 import {ALL_GAME_EVENTS} from '../../data/gamesEvents';
 import FreeEventBlock from '../FreeEventBlock/FreeEventBlock';
-import {FREE_EVENTS} from '../../data/freeEvents';
+import {FREE_EVENTS, getFreeEventMarkers} from '../../data/freeEvents';
+import {getVenueMarkers} from '../../data/venues';
 
 class ThingsScreen extends Component {
 
@@ -20,7 +21,7 @@ class ThingsScreen extends Component {
 
     this.state = {
       fullScreenMap: false,
-      tab: 'free'
+      tab: 'games'
     };
 
     this.changeTab = this.changeTab.bind(this);
@@ -46,6 +47,13 @@ class ThingsScreen extends Component {
       fullScreenMap: true
     });
     // scroll to top of page? - prevent scrolling any further?
+  }
+
+  getMapMarkers() {
+    if (this.state.tab === 'games') {
+      return getVenueMarkers();
+    }
+    return getFreeEventMarkers();
   }
 
   renderGameEvents() {
@@ -91,7 +99,8 @@ class ThingsScreen extends Component {
           }
         ])}>
           <div className='ThingsScreen__mapWrapper'>
-            <EventsMap fullScreenMap={fullScreenMap} exitMapFullscreen={this.exitMapFullscreen}
+            <EventsMap tab={tab} mapMarkers={this.getMapMarkers()} fullScreenMap={fullScreenMap}
+                       exitMapFullscreen={this.exitMapFullscreen}
                        viewMapInFullscreen={this.viewMapInFullscreen}/>
           </div>
           <div className='ThingsScreen__eventsWrapper'>
