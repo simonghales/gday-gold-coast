@@ -30,7 +30,7 @@ class LanguagesSelect extends Component {
         </div>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>クイーンズランド</h3>
+            <h3>こんにちはクイーンズランド</h3>
           </Link>
         </div>
       </div>

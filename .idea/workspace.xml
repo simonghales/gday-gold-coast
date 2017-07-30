@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3457d83d-f179-426e-9842-695e7e655742" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" afterPath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss" afterPath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" afterPath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -166,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingScreen.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LandingScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="541">
+              <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -206,11 +205,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LanguagesSelect.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LanguagesSelect.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="420">
+              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -220,7 +219,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -392,9 +391,9 @@
         <option value="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js" />
         <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
         <option value="$PROJECT_DIR$/src/data/gamesEvents.js" />
-        <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
         <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss" />
         <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
       </list>
     </option>
   </component>
@@ -537,7 +536,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501249424595</updated>
-      <workItem from="1501249425882" duration="34032000" />
+      <workItem from="1501249425882" duration="34302000" />
     </task>
     <task id="LOCAL-00001" summary="setup transitions">
       <created>1501287486682</created>
@@ -686,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501395780564</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added extra message">
+      <created>1501396906941</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1501396906941</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34032000" />
+    <option name="totallyTimeSpent" value="34302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -744,7 +750,8 @@
     <MESSAGE value="added in directions section" />
     <MESSAGE value="added in extra chinese" />
     <MESSAGE value="added other languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added other languages" />
+    <MESSAGE value="added extra message" />
+    <option name="LAST_COMMIT_MESSAGE" value="added extra message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1112,26 +1119,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        <state relative-caret-position="541">
+          <caret line="49" column="70" lean-forward="false" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>
