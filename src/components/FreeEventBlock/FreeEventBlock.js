@@ -24,7 +24,7 @@ class FreeEventBlock extends Component {
             <div className='FreeEventBlock__header__options'>
               <button className='FreeEventBlock__directions' onClick={() => {
                 this.props.setDirections(event.lat, event.long);
-              }}>Get directions
+              }}>Get directions<span>导航</span>
               </button>
             </div>
           </header>

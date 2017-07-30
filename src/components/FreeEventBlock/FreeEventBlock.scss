@@ -36,6 +36,13 @@
 .FreeEventBlock__directions
 {
   @include actionButton;
+
+  span
+  {
+    display:     inline-block;
+    margin-left: 5px;
+  }
+
 }
 
 .FreeEventBlock__title

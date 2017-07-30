@@ -15,7 +15,7 @@ class LanguageScreen extends Component {
           <div>
             <div className='LanguageScreen__block'>
               <h3>G'day</h3>
-              <h4>的缩写，通用的问候语，相当于“你好”。</h4>
+              <h4>通用的问候语，相当于“你好”。</h4>
               <p>
                 Australian greeting. i.e. Hello, greetings
               </p>

@@ -163,7 +163,7 @@ class ThingsScreen extends Component {
                      this.changeTab('games')
                    }}>
                 <span>Games</span>
-                <span>竞技赛事</span>
+                <span className='chinese'>竞技赛事</span>
               </div>
               <div className={classNames([
                 'ThingsScreen__eventsTabs__tab',
@@ -175,7 +175,7 @@ class ThingsScreen extends Component {
                      this.changeTab('free')
                    }}>
                 <span>Free</span>
-                <span>免费活动</span>
+                <span className='chinese'>免费活动</span>
               </div>
               {/*<div className={classNames([*/}
               {/*'ThingsScreen__eventsTabs__tab',*/}

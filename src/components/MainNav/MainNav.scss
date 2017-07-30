@@ -37,6 +37,7 @@
   cursor:       pointer;
   font-weight:  500;
   color:        #909090;
+  text-align:   center;
 
   &.MainNav__tab--selected
   {
@@ -55,6 +56,11 @@
   &:last-of-type
   {
     border-right: 0;
+  }
+
+  div:last-of-type
+  {
+    margin-top: 5px;
   }
 
 }

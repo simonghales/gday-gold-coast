@@ -46,6 +46,13 @@
 .EventBlock__directions
 {
   @include actionButton;
+
+  span
+  {
+    display:     inline-block;
+    margin-left: 5px;
+  }
+
 }
 
 .EventBlock__title

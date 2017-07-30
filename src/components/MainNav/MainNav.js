@@ -22,12 +22,14 @@ class MainNav extends Component {
           }
         ])}>
           <Link to='/home'>
-            <span>
-              HOME
-            </span>
-            <span>
-              主页
-            </span>
+            <div>
+              <div>
+                HOME
+              </div>
+              <div>
+                主页
+              </div>
+            </div>
           </Link>
         </div>
         <div className={classNames([
@@ -37,12 +39,14 @@ class MainNav extends Component {
           }
         ])}>
           <Link to='/events'>
-            <span>
-              EVENTS
-            </span>
-            <span>
-              活动
-            </span>
+            <div>
+              <div>
+                EVENTS
+              </div>
+              <div>
+                活动
+              </div>
+            </div>
           </Link>
         </div>
         <div className={classNames([
@@ -52,12 +56,14 @@ class MainNav extends Component {
           }
         ])}>
           <Link to='/language'>
-            <span>
-              LANG
-            </span>
-            <span>
-              语言
-            </span>
+            <div>
+              <div>
+                LANG
+              </div>
+              <div>
+                语言
+              </div>
+            </div>
           </Link>
         </div>
         {/*<div className='MainNav__tab'>*/}
