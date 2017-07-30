@@ -47,6 +47,10 @@ class LandingScreen extends Component {
                     Maps API.
                   </p>
                   <p>
+                    If a pop-up appears asking for location access, if you deny this the 'get directions' buttons won't
+                    work.
+                  </p>
+                  <p>
                     <strong>
                       Tap anywhere to close this.
                     </strong>
