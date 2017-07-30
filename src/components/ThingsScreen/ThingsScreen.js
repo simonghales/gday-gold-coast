@@ -161,7 +161,9 @@ class ThingsScreen extends Component {
               ])}
                    onClick={() => {
                      this.changeTab('games')
-                   }}>Games
+                   }}>
+                <span>Games</span>
+                <span>竞技赛事</span>
               </div>
               <div className={classNames([
                 'ThingsScreen__eventsTabs__tab',
@@ -171,7 +173,9 @@ class ThingsScreen extends Component {
               ])}
                    onClick={() => {
                      this.changeTab('free')
-                   }}>Free
+                   }}>
+                <span>Free</span>
+                <span>免费活动</span>
               </div>
               {/*<div className={classNames([*/}
               {/*'ThingsScreen__eventsTabs__tab',*/}

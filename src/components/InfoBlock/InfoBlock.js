@@ -9,6 +9,8 @@ class InfoBlock extends Component {
   props: {
     title: string,
     description: string,
+    chineseTitle: string,
+    chineseDescription: string,
     linkLabel: string,
     linkTo: string
   };
@@ -27,9 +29,14 @@ class InfoBlock extends Component {
         <Link to={this.props.linkTo}>
           <div className='InfoBlock__content'>
             <h4 className='InfoBlock__title'>{title}</h4>
+            <h4 className='InfoBlock__title'>{this.props.chineseTitle}</h4>
             <p className='InfoBlock__description'>{description}</p>
+            <p className='InfoBlock__description'>{this.props.chineseDescription}</p>
             <div className='InfoBlock__action'>
-              <button className='InfoBlock__action__button'>{linkLabel}</button>
+              <button className='InfoBlock__action__button'>
+                <span>{linkLabel}</span>
+                <span>查看俚语</span>
+              </button>
             </div>
           </div>
         </Link>
