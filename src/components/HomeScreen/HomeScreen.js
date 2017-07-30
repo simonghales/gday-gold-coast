@@ -18,16 +18,19 @@ class HomeScreen extends Component {
                        chineseTitle='英联邦运动会'
                        chineseDescription='各项竞技赛事的时间表、比赛地点及路线查询。'
                        description='The Commonwealth Games are beginning soon. Tap here to check out when and where the events will be taking place and to receive directions.'
+                       chineseLinkLabel='查看赛事'
                        linkTo='/events'/>
             <InfoBlock title='Free things to do'
                        chineseTitle='免费活动一览'
                        chineseDescription='各种有趣好玩又免费的活动，助你畅游黄金海岸。'
                        description="Whilst you're in the Gold Coast there are a bunch of free events taking place that you can check out."
+                       chineseLinkLabel='查看活动'
                        linkTo='/events'/>
             <InfoBlock title='Learn some Aussie phrases'
                        chineseTitle='澳洲俚语连连看'
                        chineseDescription='学几句澳洲常用的俚语，和当地人交流多几分轻松。'
                        description="We've got some Aussie phrases to teach you that will help you out during your stay."
+                       chineseLinkLabel='查看俚语'
                        linkLabel='View phrases'
                        linkTo='/language'/>
           </div>

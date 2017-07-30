@@ -37,4 +37,11 @@
 .InfoBlock__action__button
 {
   @include actionButton;
+
+  .chinese
+  {
+    display:     inline-block;
+    margin-left: 5px;
+  }
+
 }

@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3457d83d-f179-426e-9842-695e7e655742" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" afterPath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" afterPath="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js" afterPath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss" afterPath="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js" afterPath="$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNav/MainNav.js" afterPath="$PROJECT_DIR$/src/components/MainNav/MainNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MainNav/MainNav.scss" afterPath="$PROJECT_DIR$/src/components/MainNav/MainNav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" afterPath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js" afterPath="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss" afterPath="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" afterPath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss" afterPath="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,17 +77,17 @@
         <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainNav.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainNav.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/MainNav/MainNav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="166">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,21 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -130,8 +116,8 @@
       <file leaf-file-name="InfoBlock.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="85" lean-forward="true" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+            <state relative-caret-position="450">
+              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -142,8 +128,8 @@
       <file leaf-file-name="InfoBlock.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -153,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,11 +155,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingScreen.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LandingScreen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingScreen.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -183,7 +179,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+              <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -355,10 +351,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/ScreenWrapper/ScreenWrapper.js" />
-        <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenWrapper/ScreenWrapper.scss" />
         <option value="$PROJECT_DIR$/src/components/EventsMap/EventsMap.scss" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -383,10 +377,7 @@
         <option value="$PROJECT_DIR$/src/components/IntroBlock/IntroBlock.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/GdayIntro/GdayIntro.scss" />
-        <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss" />
         <option value="$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.scss" />
-        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js" />
         <option value="$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js" />
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.js" />
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" />
@@ -396,6 +387,11 @@
         <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/MainNav/MainNav.js" />
         <option value="$PROJECT_DIR$/src/components/MainNav/MainNav.scss" />
+        <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss" />
+        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js" />
+        <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss" />
+        <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
       </list>
     </option>
   </component>
@@ -545,7 +541,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501249424595</updated>
-      <workItem from="1501249425882" duration="28482000" />
+      <workItem from="1501249425882" duration="29161000" />
     </task>
     <task id="LOCAL-00001" summary="setup transitions">
       <created>1501287486682</created>
@@ -638,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501377558896</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finished up adjusting chinese and other styling concerns">
+      <created>1501378007852</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1501378007852</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28482000" />
+    <option name="totallyTimeSpent" value="29161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -688,7 +691,8 @@
     <MESSAGE value="fleshed out navigation" />
     <MESSAGE value="filled in missing content" />
     <MESSAGE value="adding chinese translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding chinese translation" />
+    <MESSAGE value="finished up adjusting chinese and other styling concerns" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished up adjusting chinese and other styling concerns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -814,14 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/elements/_elements.typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -869,7 +865,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -887,7 +883,7 @@
         <state relative-caret-position="378">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,22 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GdayIntro/GdayIntro.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -961,33 +941,15 @@
     <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="85" lean-forward="true" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1019,7 +981,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1052,8 +1014,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MainNav/MainNav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="166">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>

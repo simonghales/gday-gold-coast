@@ -11,6 +11,7 @@ class InfoBlock extends Component {
     description: string,
     chineseTitle: string,
     chineseDescription: string,
+    chineseLinkLabel: string,
     linkLabel: string,
     linkTo: string
   };
@@ -35,7 +36,7 @@ class InfoBlock extends Component {
             <div className='InfoBlock__action'>
               <button className='InfoBlock__action__button'>
                 <span>{linkLabel}</span>
-                <span>查看俚语</span>
+                <span className='chinese'>{this.props.chineseLinkLabel}</span>
               </button>
             </div>
           </div>
