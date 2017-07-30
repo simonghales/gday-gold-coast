@@ -10,6 +10,11 @@ class LanguagesSelect extends Component {
       <div className='LanguagesSelect'>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
+            <h3>Hello</h3>
+          </Link>
+        </div>
+        <div className='LanguagesSelect__language'>
+          <Link to='/home'>
             <h3>Ni Hao</h3>
           </Link>
         </div>

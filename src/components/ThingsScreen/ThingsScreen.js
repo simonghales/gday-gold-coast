@@ -17,6 +17,7 @@ class ThingsScreen extends Component {
   };
 
   state: {
+    mapRenderKey: number,
     fullScreenMap: boolean,
     tab: string
   };
@@ -27,7 +28,8 @@ class ThingsScreen extends Component {
       fullScreenMap: false,
       userLocation: null,
       directions: null,
-      tab: 'games'
+      tab: 'games',
+      mapRenderKey: 0
     };
 
     this.changeTab = this.changeTab.bind(this);
@@ -69,6 +71,7 @@ class ThingsScreen extends Component {
         this.setState({
           directions: result,
         });
+        this.showDirections();
         console.log('got directions');
       } else {
         console.error(`error fetching directions ${result}`);
@@ -146,10 +149,14 @@ class ThingsScreen extends Component {
           }
         ])}>
           <div className='ThingsScreen__mapWrapper'>
-            <EventsMap tab={tab} directions={this.state.directions} mapMarkers={this.getMapMarkers()}
+            <EventsMap mapRenderKey={this.state.mapRenderKey}
+                       tab={tab} directions={this.state.directions} mapMarkers={this.getMapMarkers()}
                        fullScreenMap={fullScreenMap}
                        exitMapFullscreen={this.exitMapFullscreen}
                        viewMapInFullscreen={this.viewMapInFullscreen} setUserLocation={this.setUserLocation}/>
+          </div>
+          <div className='ThingsScreen__directions'>
+            DIRECTIONS STUFF GOES HERE
           </div>
           <div className='ThingsScreen__eventsWrapper'>
             <div className='ThingsScreen__eventsTabs'>

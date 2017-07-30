@@ -1,4 +1,47 @@
+@import "styles/tools/tools.buttons";
+
 .HomeScreen
 {
+
+}
+
+.HomeScreen__extra
+{
+  margin:     40px 20px;
+  text-align: center;
+
+  &:first-of-type
+  {
+    //margin-top: 20px;
+  }
+
+}
+
+.HomeScreen__extra__title
+{
+  font-weight:   700;
+  margin-bottom: 5px;
+}
+
+.HomeScreen__extra__chinese
+{
+  margin-bottom: 10px;
+}
+
+.HomeScreen__extra__actionWrapper
+{
+  display:         flex;
+  justify-content: center;
+}
+
+.HomeScreen__extra__action
+{
+  @include actionButton;
+
+  span:last-of-type
+  {
+    display:     inline-block;
+    margin-left: 5px;
+  }
 
 }

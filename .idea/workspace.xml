@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3457d83d-f179-426e-9842-695e7e655742" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" afterPath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" afterPath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" afterPath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" afterPath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,12 +36,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThingsScreen.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ThingsScreen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="177" column="40" lean-forward="false" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+            <state relative-caret-position="329">
+              <caret line="157" column="26" lean-forward="true" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="50" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsMap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/EventsMap/EventsMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="237" column="56" lean-forward="true" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!block;n#componentWillUnmount#0;n#EventsMap#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +61,8 @@
       <file leaf-file-name="ThingsScreen.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="241">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -90,21 +108,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GdayIntro.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/GdayIntro/GdayIntro.scss">
+      <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="3" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
+      <file leaf-file-name="OverlayMessage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverlayMessage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeScreen.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -132,16 +172,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LanguageScreen.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EventBlock.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -156,7 +186,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,47 +206,27 @@
         <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+              <caret line="69" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LanguageScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/LanguageScreen/LanguageScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_tools.buttons.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/tools/_tools.buttons.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntroBlock.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/IntroBlock/IntroBlock.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="270">
+              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LanguagesSelect.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -233,7 +243,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lint</find>
       <find>stadium</find>
       <find>radius</find>
       <find>Belmont</find>
@@ -260,13 +269,15 @@
       <find>table</find>
       <find>towns</find>
       <find>cairns</find>
-      <find>cool</find>
       <find>LanguageScreen</find>
       <find>font-weight: 500</find>
+      <find>cool</find>
+      <find>LandingScreen__overlay</find>
     </findStrings>
     <replaceStrings>
-      <replace>FreeEventBlock</replace>
       <replace>font-weight: 700</replace>
+      <replace>FreeEventBlock</replace>
+      <replace>OverlayMessage</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -346,7 +357,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/ScreenWrapper/ScreenWrapper.js" />
         <option value="$PROJECT_DIR$/src/components/ScreenWrapper/ScreenWrapper.scss" />
         <option value="$PROJECT_DIR$/src/components/EventsMap/EventsMap.scss" />
@@ -358,11 +368,9 @@
         <option value="$PROJECT_DIR$/src/components/MarkerInfoWindow/MarkerInfoWindow.js" />
         <option value="$PROJECT_DIR$/src/components/MarkerInfoWindow/MarkerInfoWindow.scss" />
         <option value="$PROJECT_DIR$/src/data/gamesEvents.js" />
-        <option value="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
         <option value="$PROJECT_DIR$/src/styles/elements/_elements.typography.scss" />
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.css" />
         <option value="$PROJECT_DIR$/src/components/IntroBlock/IntroBlock.js" />
-        <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
         <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.scss" />
         <option value="$PROJECT_DIR$/src/analytics/analytics.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -377,17 +385,22 @@
         <option value="$PROJECT_DIR$/src/components/EventBlock/EventBlock.scss" />
         <option value="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.js" />
         <option value="$PROJECT_DIR$/src/components/FreeEventBlock/FreeEventBlock.scss" />
-        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/MainNav/MainNav.js" />
         <option value="$PROJECT_DIR$/src/components/MainNav/MainNav.scss" />
         <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.scss" />
-        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js" />
         <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
+        <option value="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
+        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
+        <option value="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss" />
+        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
+        <option value="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js" />
+        <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
       </list>
     </option>
   </component>
@@ -459,14 +472,7 @@
               <item name="gday-queensland" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FreeEventBlock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gday-queensland" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MarkerInfoWindow" type="462c0819:PsiDirectoryNode" />
+              <item name="OverlayMessage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gday-queensland" type="b2602c69:ProjectViewProjectNode" />
@@ -537,7 +543,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501249424595</updated>
-      <workItem from="1501249425882" duration="29905000" />
+      <workItem from="1501249425882" duration="31598000" />
     </task>
     <task id="LOCAL-00001" summary="setup transitions">
       <created>1501287486682</created>
@@ -651,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501379151730</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added website link and title tag">
+      <created>1501384042528</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1501384042528</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29905000" />
+    <option name="totallyTimeSpent" value="31598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -704,7 +717,8 @@
     <MESSAGE value="finished up adjusting chinese and other styling concerns" />
     <MESSAGE value="added overlay message" />
     <MESSAGE value="fixed up readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed up readme" />
+    <MESSAGE value="added website link and title tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="added website link and title tag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,14 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -802,18 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EventsMap/EventsMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#20#59#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillUnmount#0;n#EventsMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/freeEvents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -843,16 +837,6 @@
         <state relative-caret-position="373">
           <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,22 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="177" column="40" lean-forward="false" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MainNav/MainNav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1032,14 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InfoBlock/InfoBlock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1050,18 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1076,8 +1028,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="270">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EventsMap/EventsMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="237" column="56" lean-forward="true" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EventsMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="69" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="70" lean-forward="false" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="157" column="26" lean-forward="true" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="50" />
           <folding />
         </state>
       </provider>

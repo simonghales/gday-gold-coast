@@ -7,10 +7,10 @@
 {
   height:           30vh;
   background-color: #B0B0B0;
-  position:         absolute;
-  top:              0;
-  left:             0;
-  right:            0;
+  //position:         absolute;
+  //top:              0;
+  //left:             0;
+  //right:            0;
   transition:       height 500ms ease;
 
   .ThingsScreen--fullScreenMap &
@@ -20,9 +20,19 @@
 
 }
 
+.ThingsScreen__mapWrapper__map
+{
+
+}
+
+.ThingsScreen__directions
+{
+  height: 200px;
+}
+
 .ThingsScreen__eventsWrapper
 {
-  padding-top: 30vh;
+  //padding-top: 30vh;
 }
 
 .ThingsScreen__eventsTabs

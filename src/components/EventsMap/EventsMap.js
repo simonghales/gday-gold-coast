@@ -72,6 +72,7 @@ class EventsMap extends Component {
 
   props: {
     directions: any,
+    mapRenderKey: number,
     tab: string,
     fullScreenMap: boolean,
     mapMarkers: _googleMarker[],
@@ -227,7 +228,7 @@ class EventsMap extends Component {
   }
 
   render() {
-    const {fullScreenMap, viewMapInFullscreen, mapMarkers} = this.props;
+    const {fullScreenMap, viewMapInFullscreen, mapMarkers, mapRenderKey = 0} = this.props;
     const {overlayDismissed} = this.state;
 
     return (
@@ -238,7 +239,7 @@ class EventsMap extends Component {
         }
       ])}>
         <DirectionsExampleGoogleMap
-          key={this.state.mapRenderKey}
+          key={this.state.mapRenderKey + mapRenderKey}
           ref={(elem) => {
             if (this.map) return;
             this.map = elem;

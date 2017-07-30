@@ -5,8 +5,17 @@ import LanguagesSelect from '../LanguagesSelect/LanguagesSelect';
 import InfoBlock from '../InfoBlock/InfoBlock';
 import IntroBlock from '../IntroBlock/IntroBlock';
 import ScreenWrapper from '../ScreenWrapper/ScreenWrapper';
+import OverlayMessage from '../OverlayMessage/OverlayMessage';
 
 class HomeScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      hotel: false,
+      airport: false
+    };
+  }
 
   render() {
     return (
@@ -14,6 +23,34 @@ class HomeScreen extends Component {
         <div className='HomeScreen'>
           <IntroBlock/>
           <div>
+            <div className='HomeScreen__extra'>
+              <h3 className='HomeScreen__extra__title'>Just Arrived at the Airport?</h3>
+              <h4 className='HomeScreen__extra__chinese'>刚下飞机吗？</h4>
+              <div className='HomeScreen__extra__actionWrapper'>
+                <button className='HomeScreen__extra__action' onClick={() => {
+                  this.setState({
+                    hotel: true
+                  });
+                }}>
+                  <span>Find me a hotel</span>
+                  <span>酒店预订</span>
+                </button>
+              </div>
+            </div>
+            <div className='HomeScreen__extra'>
+              <h3 className='HomeScreen__extra__title'>Flying Somewhere?</h3>
+              <h4 className='HomeScreen__extra__chinese'>要去搭乘航班吗？</h4>
+              <div className='HomeScreen__extra__actionWrapper'>
+                <button className='HomeScreen__extra__action' onClick={() => {
+                  this.setState({
+                    airport: true
+                  });
+                }}>
+                  <span>Get directions to the Airport</span>
+                  <span>通往机场线路一览</span>
+                </button>
+              </div>
+            </div>
             <InfoBlock title='Commonwealth Games'
                        chineseTitle='英联邦运动会'
                        chineseDescription='各项竞技赛事的时间表、比赛地点及路线查询。'
@@ -35,6 +72,24 @@ class HomeScreen extends Component {
                        linkTo='/language'/>
           </div>
         </div>
+        {
+          this.state.hotel ? (
+            <OverlayMessage onClose={() => {
+              this.setState({
+                hotel: false
+              });
+            }}/>
+          ) : null
+        }
+        {
+          this.state.airport ? (
+            <OverlayMessage airport={true} onClose={() => {
+              this.setState({
+                airport: false
+              });
+            }}/>
+          ) : null
+        }
       </ScreenWrapper>
     );
   }
