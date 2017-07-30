@@ -5,11 +5,31 @@
   display:             flex;
   align-items:         center;
   justify-content:     center;
-  background-image:    url('http://www.goldcoast.qld.gov.au/_images/photos/Gold%20Coast%20Beaches/iStock_000015684964Small-cropped.jpg');
+  background-image:    url('https://upload.wikimedia.org/wikipedia/commons/2/2a/Beautiful_place.jpg');
   background-size:     cover;
   background-position: center;
   background-repeat:   no-repeat;
   position:            relative;
+
+  &::before
+  {
+    content:          '';
+    position:         absolute;
+    top:              0;
+    left:             0;
+    right:            0;
+    bottom:           0;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  h2
+  {
+    color:       #FFFFFF;
+    font-size:   28px;
+    font-weight: 700;
+    position:    relative;
+  }
+
 }
 
 .IntroBlock__return

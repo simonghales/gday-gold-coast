@@ -9,7 +9,12 @@ class MainNav extends Component {
   render() {
     console.log('main nav props', this.props);
     return (
-      <nav className='MainNav'>
+      <nav className={classNames([
+        'MainNav',
+        {
+          'MainNav--hidden': this.props.page === '/'
+        }
+      ])}>
         <div className={classNames([
           'MainNav__tab',
           {

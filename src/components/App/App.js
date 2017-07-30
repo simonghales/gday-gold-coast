@@ -11,6 +11,7 @@ import MainNav from '../MainNav/MainNav';
 import LanguageScreen from '../LanguageScreen/LanguageScreen';
 import HomeScreen from '../HomeScreen/HomeScreen';
 import ThingsScreen from '../ThingsScreen/ThingsScreen';
+import classNames from 'classnames';
 
 class App extends Component {
 
@@ -37,7 +38,12 @@ class App extends Component {
     return (
       <div className='App'>
         {/*<LandingScreen/>*/}
-        <div className='App__screenWrapper'>
+        <div className={classNames([
+          'App__screenWrapper',
+          {
+            'App__screenWrapper--landing': this.props.location.pathname === '/'
+          }
+        ])}>
           <Route render={({location}) => (
             <ReactCSSTransitionGroup
               transitionName={'pageTransition'}

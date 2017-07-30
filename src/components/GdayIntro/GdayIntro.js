@@ -8,6 +8,7 @@ class GdayIntro extends Component {
         <h2>
           G'day Queensland
         </h2>
+        <h3 className='GdayIntro__prompt'>select a language below</h3>
       </div>
     );
   }

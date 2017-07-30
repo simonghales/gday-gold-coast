@@ -1,4 +1,103 @@
+@import "styles/tools/tools.buttons";
+
 .LanguageScreen
 {
+
+}
+
+.LanguageScreen__intro
+{
+  background-color:    #808080;
+  background-image:    url('http://i.imgur.com/l3O2e0k.jpg');
+  background-size:     cover;
+  background-position: center;
+  height:              35vh;
+  display:             flex;
+  align-items:         center;
+  justify-content:     center;
+  color:               #FFFFFF;
+  font-size:           28px;
+  font-weight:         700;
+  position:            relative;
+
+  &::before
+  {
+    content:          '';
+    position:         absolute;
+    top:              0;
+    left:             0;
+    right:            0;
+    bottom:           0;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  h2
+  {
+    position: relative;
+  }
+}
+
+.LanguageScreen__block
+{
+  margin:           20px 10px;
+  background-color: #FFFFFF;
+  border-radius:    3px;
+  box-shadow:       0 1px 5px rgba(0, 0, 0, 0.05);
+  padding:          10px;
+
+  h3
+  {
+    font-weight: 700;
+  }
+
+  h4
+  {
+    margin: 5px 0 10px 0;
+  }
+
+  p
+  {
+    font-size: 14px;
+  }
+
+}
+
+.LanguageScreen__google
+{
+  margin:     40px 20px 20px 20px;
+  text-align: center;
+
+  h3
+  {
+    font-size:     18px;
+    line-height:   20px;
+    font-weight:   700;
+    margin-bottom: 10px;
+  }
+
+  p
+  {
+    margin-top: 10px;
+  }
+
+}
+
+.LanguageScreen__google__apps
+{
+  display: flex;
+  margin:  40px 0;
+}
+
+.LanguageScreen__google__apps__app
+{
+  flex:            1;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+
+  a
+  {
+    @include actionButton;
+  }
 
 }

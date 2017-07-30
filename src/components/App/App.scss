@@ -11,4 +11,11 @@
   right:      0;
   bottom:     100px;
   overflow-y: auto;
+  transition: bottom 300ms ease;
+
+  &.App__screenWrapper--landing
+  {
+    bottom: 0;
+  }
+
 }

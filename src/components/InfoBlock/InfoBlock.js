@@ -28,7 +28,9 @@ class InfoBlock extends Component {
           <div className='InfoBlock__content'>
             <h4 className='InfoBlock__title'>{title}</h4>
             <p className='InfoBlock__description'>{description}</p>
-            <div className='InfoBlock__action'>{linkLabel}</div>
+            <div className='InfoBlock__action'>
+              <button className='InfoBlock__action__button'>{linkLabel}</button>
+            </div>
           </div>
         </Link>
       </div>
