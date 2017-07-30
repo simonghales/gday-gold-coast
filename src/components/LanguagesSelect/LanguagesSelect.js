@@ -10,32 +10,27 @@ class LanguagesSelect extends Component {
       <div className='LanguagesSelect'>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>Hello</h3>
+            <h3>Hello Queensland</h3>
           </Link>
         </div>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>Ni Hao</h3>
+            <h3>早安，昆士兰</h3>
           </Link>
         </div>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>Bonjour</h3>
+            <h3>Bonjour Queensland</h3>
           </Link>
         </div>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>Aloha</h3>
+            <h3>ආයුබෝවන් ක්වීන්ස්ලන්ඩ්</h3>
           </Link>
         </div>
         <div className='LanguagesSelect__language'>
           <Link to='/home'>
-            <h3>Guten tag</h3>
-          </Link>
-        </div>
-        <div className='LanguagesSelect__language'>
-          <Link to='/home'>
-            <h3>Konichiwa</h3>
+            <h3>クイーンズランド</h3>
           </Link>
         </div>
       </div>

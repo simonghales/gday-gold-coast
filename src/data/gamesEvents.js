@@ -235,6 +235,56 @@ const THUR_5TH_GAME_EVENTS: _gameEvent[] = [
     "sportPrice": "Adult tickets from $40"
   }];
 
+const FRI_6TH_GAME_EVENTS: _gameEvent[] = [{
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Badminton",
+  "sportTime": "9:00am—12:30pm",
+  "sportCity": "Gold Coast",
+  "sportVenue": "Carrara Sports and Leisure Centre",
+  "sportPrice": "Adult tickets from $20"
+}, {
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Badminton",
+  "sportTime": "2:00pm—5:30pm",
+  "sportCity": "Gold Coast",
+  "sportVenue": "Carrara Sports and Leisure Centre",
+  "sportPrice": "Adult tickets from $20"
+}, {
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Badminton",
+  "sportTime": "7:00pm—10:30pm",
+  "sportCity": "Gold Coast",
+  "sportVenue": "Carrara Sports and Leisure Centre",
+  "sportPrice": "Adult tickets from $20"
+}, {
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Basketball",
+  "sportTime": "6:30pm—11:00pm",
+  "sportCity": "Townsville",
+  "sportVenue": "Townsville Entertainment and Convention Centre",
+  "sportPrice": "Adult tickets from $30"
+}, {
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Basketball",
+  "sportTime": "5:30pm—10:00pm",
+  "sportCity": "Cairns",
+  "sportVenue": "Cairns Convention Centre",
+  "sportPrice": "Adult tickets from $30"
+}, {
+  "X": 153.3642457276816,
+  "Y": -28.004433949166607,
+  "sportName": "Beach Volleyball",
+  "sportTime": "10:30am—1:30pm",
+  "sportCity": "Gold Coast",
+  "sportVenue": "Coolangatta Beachfront",
+  "sportPrice": "Adult tickets from $30"
+}];
+
 export interface _gamesEvents {
   date: string,
   label: string,
@@ -246,5 +296,10 @@ export const ALL_GAME_EVENTS: _gamesEvents[] = [
     date: '05/04/2018',
     label: 'Thursday 5th of April',
     events: THUR_5TH_GAME_EVENTS
+  },
+  {
+    data: '06/04/2018',
+    label: 'Friday 6th of April',
+    events: FRI_6TH_GAME_EVENTS
   }
 ];
