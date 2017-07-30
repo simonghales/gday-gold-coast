@@ -71,7 +71,6 @@ class ThingsScreen extends Component {
         this.setState({
           directions: result,
         });
-        this.showDirections();
         console.log('got directions');
       } else {
         console.error(`error fetching directions ${result}`);
@@ -155,8 +154,34 @@ class ThingsScreen extends Component {
                        exitMapFullscreen={this.exitMapFullscreen}
                        viewMapInFullscreen={this.viewMapInFullscreen} setUserLocation={this.setUserLocation}/>
           </div>
-          <div className='ThingsScreen__directions'>
-            DIRECTIONS STUFF GOES HERE
+          <div className={classNames([
+            'ThingsScreen__directions',
+            {
+              'ThingsScreen__directions--hidden': !this.state.directions
+            }
+          ])}>
+            <header className='ThingsScreen__directions__header'>
+              <label>
+                <span>
+                  Transportation
+                </span>
+                <select>
+                  <option>Car</option>
+                  <option>Bus / Train</option>
+                  <option>Walking</option>
+                  <option>Cycling</option>
+                </select>
+              </label>
+            </header>
+            <div className='ThingsScreen__directions__body'>
+              <div className='ThingsScreen__directions__body__departure'>Departure Time & Date: ASAP</div>
+              <div className='ThingsScreen__directions__body__arrival'>Estimated Arrival Time: 10:27am</div>
+              <div className='ThingsScreen__directions__body__directions'>
+                <button>
+                  Get Step-by-Step Directions
+                </button>
+              </div>
+            </div>
           </div>
           <div className='ThingsScreen__eventsWrapper'>
             <div className='ThingsScreen__eventsTabs'>

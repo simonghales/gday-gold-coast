@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3457d83d-f179-426e-9842-695e7e655742" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" afterPath="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" afterPath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" afterPath="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" afterPath="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" afterPath="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
     </list>
@@ -39,8 +33,8 @@
       <file leaf-file-name="ThingsScreen.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="157" column="26" lean-forward="true" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="50" />
+            <state relative-caret-position="142">
+              <caret line="159" column="72" lean-forward="false" selection-start-line="159" selection-start-column="72" selection-end-line="159" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -61,8 +55,8 @@
       <file leaf-file-name="ThingsScreen.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="76">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -395,12 +389,12 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/LanguagesSelect/LanguagesSelect.js" />
         <option value="$PROJECT_DIR$/src/components/EventsMap/EventsMap.js" />
-        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
-        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.scss" />
         <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.scss" />
         <option value="$PROJECT_DIR$/src/components/OverlayMessage/OverlayMessage.js" />
         <option value="$PROJECT_DIR$/src/components/HomeScreen/HomeScreen.js" />
+        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss" />
+        <option value="$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js" />
       </list>
     </option>
   </component>
@@ -543,7 +537,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501249424595</updated>
-      <workItem from="1501249425882" duration="31598000" />
+      <workItem from="1501249425882" duration="32434000" />
     </task>
     <task id="LOCAL-00001" summary="setup transitions">
       <created>1501287486682</created>
@@ -664,11 +658,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501384042528</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added in home page extras">
+      <created>1501388396309</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1501388396309</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31598000" />
+    <option name="totallyTimeSpent" value="32434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -718,7 +719,8 @@
     <MESSAGE value="added overlay message" />
     <MESSAGE value="fixed up readme" />
     <MESSAGE value="added website link and title tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="added website link and title tag" />
+    <MESSAGE value="added in home page extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="added in home page extras" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1052,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LandingScreen/LandingScreen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1102,10 +1096,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ThingsScreen/ThingsScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="157" column="26" lean-forward="true" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="50" />
+        <state relative-caret-position="142">
+          <caret line="159" column="72" lean-forward="false" selection-start-line="159" selection-start-column="72" selection-end-line="159" selection-end-column="72" />
           <folding />
         </state>
       </provider>

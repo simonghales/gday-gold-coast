@@ -1,3 +1,5 @@
+@import "styles/tools/tools.buttons";
+
 .ThingsScreen
 {
   position: relative;
@@ -27,7 +29,67 @@
 
 .ThingsScreen__directions
 {
-  height: 200px;
+  height:     140px;
+  transition: height 300ms ease;
+  overflow:   hidden;
+
+  &.ThingsScreen__directions--hidden
+  {
+    height: 0;
+  }
+
+}
+
+.ThingsScreen__directions__header
+{
+  height:           30px;
+  background-color: #FFFFFF;
+  border-bottom:    1px solid #F0F0F0;
+  display:          flex;
+  align-items:      center;
+  justify-content:  center;
+
+  label
+  {
+
+    > span
+    {
+      font-weight: 700;
+    }
+
+  }
+
+  select
+  {
+    background-color: #D0D0D0;
+    margin-left:      10px;
+  }
+}
+
+.ThingsScreen__directions__body
+{
+  text-align: center;
+}
+
+.ThingsScreen__directions__body__departure
+{
+  margin: 10px 0;
+}
+
+.ThingsScreen__directions__body__arrival
+{
+  margin: 10px 0;
+}
+
+.ThingsScreen__directions__body__directions
+{
+  text-align: center;
+
+  button
+  {
+    @include actionButton;
+  }
+
 }
 
 .ThingsScreen__eventsWrapper
