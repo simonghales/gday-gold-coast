@@ -9,6 +9,7 @@ import {ALL_GAME_EVENTS} from '../../data/gamesEvents';
 import FreeEventBlock from '../FreeEventBlock/FreeEventBlock';
 import {FREE_EVENTS, getFreeEventMarkers} from '../../data/freeEvents';
 import {getVenueMarkers} from '../../data/venues';
+import OverlayMessage from '../OverlayMessage/OverlayMessage';
 
 class ThingsScreen extends Component {
 
@@ -29,7 +30,8 @@ class ThingsScreen extends Component {
       userLocation: null,
       directions: null,
       tab: 'games',
-      mapRenderKey: 0
+      mapRenderKey: 0,
+      directionsPrompt: false,
     };
 
     this.changeTab = this.changeTab.bind(this);
@@ -163,13 +165,14 @@ class ThingsScreen extends Component {
             <header className='ThingsScreen__directions__header'>
               <label>
                 <span>
-                  Transportation
+                  <span>Transportation</span>
+                  <span className='chinese'> 出行方式</span>
                 </span>
                 <select>
-                  <option>Car</option>
-                  <option>Bus / Train</option>
-                  <option>Walking</option>
-                  <option>Cycling</option>
+                  <option>Car 驾车</option>
+                  <option>Bus / Train 公交／快轨</option>
+                  <option>Walking 步行</option>
+                  <option>Cycling 骑行</option>
                 </select>
               </label>
             </header>
@@ -177,7 +180,11 @@ class ThingsScreen extends Component {
               <div className='ThingsScreen__directions__body__departure'>Departure Time & Date: ASAP</div>
               <div className='ThingsScreen__directions__body__arrival'>Estimated Arrival Time: 10:27am</div>
               <div className='ThingsScreen__directions__body__directions'>
-                <button>
+                <button onClick={() => {
+                  this.setState({
+                    directionsPrompt: true
+                  });
+                }}>
                   Get Step-by-Step Directions
                 </button>
               </div>
@@ -234,6 +241,15 @@ class ThingsScreen extends Component {
             </div>
           </div>
         </div>
+        {
+          this.state.directionsPrompt ? (
+            <OverlayMessage directions={true} onClose={() => {
+              this.setState({
+                directionsPrompt: false
+              });
+            }}/>
+          ) : null
+        }
       </ScreenWrapper>
     );
   }
